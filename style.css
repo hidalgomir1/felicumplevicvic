@@ -1,0 +1,25 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Evita barras de desplazamiento */
+  background-color: #5c94fc; /* El azul cielo de Mario */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Usamos una tipografía pixel art predeterminada para que sea 'linda' y retro */
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  display: block;
+  image-rendering: pixelated; /* Mantiene los píxeles nítidos y retro */
+  cursor: pointer; /* Cambia el cursor para indicar interacción */
+}
